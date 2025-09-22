@@ -521,7 +521,9 @@ video {
     text-align: start;
     gap: 48px;
   }
-  .footer-brand {
-    text-align: start;
+  .footer-section:last-child {
+    /* .footer-brand внутри div .footer-section */
+    grid-column: 3;
+    text-align: center;
   }
 }
