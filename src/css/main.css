@@ -406,10 +406,61 @@ video {
   .nav-toggle {
     display: none;
   }
+  .hero-content h1 {
+    font-size: 35px;
+  }
+  .hero-content p {
+    font-size: 18px;
+  }
+  .hero-image {
+    max-width: 80%;
+  }
+  .cta-button {
+    padding: 15px 30px;
+    width: auto;
+    font-size: 17px;
+  }
+  .features h2 {
+    font-size: 40px;
+  }
+  .features-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+  }
+  .feature-card h3 {
+    font-size: 22px;
+  }
+  .feature-card {
+    padding: 33px;
+  }
+  .features {
+    padding: 67px 0;
+  }
+  .services h2 {
+    font-size: 29px;
+  }
+  .services-layout {
+    grid-template-columns: 1fr 1fr;
+  }
+  .service-main {
+    padding: 33px;
+  }
+  .service-main h3 {
+    font-size: 24px;
+  }
+  .service-item {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+  }
+  .service-item img {
+    width: 60px;
+    height: 45px;
+    object-fit: cover;
+    margin: 0;
+  }
 }
 
 /* DESKTOP - Large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
-
 }
-
