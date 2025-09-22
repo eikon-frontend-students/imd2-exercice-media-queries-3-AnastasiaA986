@@ -433,9 +433,6 @@ video {
   .feature-card {
     padding: 33px;
   }
-  .features {
-    padding: 67px 0;
-  }
   .services h2 {
     font-size: 29px;
   }
@@ -458,6 +455,25 @@ video {
     height: 45px;
     object-fit: cover;
     margin: 0;
+  }
+  .gallery h2 {
+    font-size: 29px;
+  }
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+  }
+  .social-links {
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .footer-brand {
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 }
 
